@@ -1,0 +1,30 @@
+{
+  "name": "wordcount",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "bin": {
+    "fileStat": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evan-CSE/cli-based-wc.git"
+  },
+  "author": "Hasibur Rahman (Evan)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evan-CSE/cli-based-wc/issues"
+  },
+  "homepage": "https://github.com/Evan-CSE/cli-based-wc#readme",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "global": "^4.4.0"
+  }
+}
